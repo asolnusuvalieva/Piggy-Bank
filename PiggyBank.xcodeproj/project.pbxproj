@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE12FA9D25DA6BA200CD8A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FA9C25DA6BA200CD8A5A /* AppDelegate.swift */; };
+		EE12FA9F25DA6BA200CD8A5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FA9E25DA6BA200CD8A5A /* SceneDelegate.swift */; };
+		EE12FAA125DA6BA200CD8A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FAA025DA6BA200CD8A5A /* ViewController.swift */; };
+		EE12FAA425DA6BA200CD8A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE12FAA225DA6BA200CD8A5A /* Main.storyboard */; };
+		EE12FAA625DA6BA600CD8A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE12FAA525DA6BA600CD8A5A /* Assets.xcassets */; };
+		EE12FAA925DA6BA600CD8A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE12FAA725DA6BA600CD8A5A /* LaunchScreen.storyboard */; };
+		EE12FAB425DA6BA600CD8A5A /* PiggyBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FAB325DA6BA600CD8A5A /* PiggyBankTests.swift */; };
+		EE12FABF25DA6BA600CD8A5A /* PiggyBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12FABE25DA6BA600CD8A5A /* PiggyBankUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE12FAB025DA6BA600CD8A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE12FA9125DA6BA200CD8A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE12FA9825DA6BA200CD8A5A;
+			remoteInfo = PiggyBank;
+		};
+		EE12FABB25DA6BA600CD8A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE12FA9125DA6BA200CD8A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE12FA9825DA6BA200CD8A5A;
+			remoteInfo = PiggyBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE12FA9925DA6BA200CD8A5A /* PiggyBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiggyBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE12FA9C25DA6BA200CD8A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE12FA9E25DA6BA200CD8A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE12FAA025DA6BA200CD8A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE12FAA325DA6BA200CD8A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE12FAA525DA6BA600CD8A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE12FAA825DA6BA600CD8A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE12FAAA25DA6BA600CD8A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE12FAAF25DA6BA600CD8A5A /* PiggyBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiggyBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE12FAB325DA6BA600CD8A5A /* PiggyBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBankTests.swift; sourceTree = "<group>"; };
+		EE12FAB525DA6BA600CD8A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE12FABA25DA6BA600CD8A5A /* PiggyBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiggyBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE12FABE25DA6BA600CD8A5A /* PiggyBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBankUITests.swift; sourceTree = "<group>"; };
+		EE12FAC025DA6BA600CD8A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE12FA9625DA6BA200CD8A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE12FAAC25DA6BA600CD8A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE12FAB725DA6BA600CD8A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE12FA9025DA6BA200CD8A5A = {
+			isa = PBXGroup;
+			children = (
+				EE12FA9B25DA6BA200CD8A5A /* PiggyBank */,
+				EE12FAB225DA6BA600CD8A5A /* PiggyBankTests */,
+				EE12FABD25DA6BA600CD8A5A /* PiggyBankUITests */,
+				EE12FA9A25DA6BA200CD8A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE12FA9A25DA6BA200CD8A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE12FA9925DA6BA200CD8A5A /* PiggyBank.app */,
+				EE12FAAF25DA6BA600CD8A5A /* PiggyBankTests.xctest */,
+				EE12FABA25DA6BA600CD8A5A /* PiggyBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE12FA9B25DA6BA200CD8A5A /* PiggyBank */ = {
+			isa = PBXGroup;
+			children = (
+				EE12FA9C25DA6BA200CD8A5A /* AppDelegate.swift */,
+				EE12FA9E25DA6BA200CD8A5A /* SceneDelegate.swift */,
+				EE12FAA025DA6BA200CD8A5A /* ViewController.swift */,
+				EE12FAA225DA6BA200CD8A5A /* Main.storyboard */,
+				EE12FAA525DA6BA600CD8A5A /* Assets.xcassets */,
+				EE12FAA725DA6BA600CD8A5A /* LaunchScreen.storyboard */,
+				EE12FAAA25DA6BA600CD8A5A /* Info.plist */,
+			);
+			path = PiggyBank;
+			sourceTree = "<group>";
+		};
+		EE12FAB225DA6BA600CD8A5A /* PiggyBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE12FAB325DA6BA600CD8A5A /* PiggyBankTests.swift */,
+				EE12FAB525DA6BA600CD8A5A /* Info.plist */,
+			);
+			path = PiggyBankTests;
+			sourceTree = "<group>";
+		};
+		EE12FABD25DA6BA600CD8A5A /* PiggyBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE12FABE25DA6BA600CD8A5A /* PiggyBankUITests.swift */,
+				EE12FAC025DA6BA600CD8A5A /* Info.plist */,
+			);
+			path = PiggyBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE12FA9825DA6BA200CD8A5A /* PiggyBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE12FAC325DA6BA600CD8A5A /* Build configuration list for PBXNativeTarget "PiggyBank" */;
+			buildPhases = (
+				EE12FA9525DA6BA200CD8A5A /* Sources */,
+				EE12FA9625DA6BA200CD8A5A /* Frameworks */,
+				EE12FA9725DA6BA200CD8A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiggyBank;
+			productName = PiggyBank;
+			productReference = EE12FA9925DA6BA200CD8A5A /* PiggyBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE12FAAE25DA6BA600CD8A5A /* PiggyBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE12FAC625DA6BA600CD8A5A /* Build configuration list for PBXNativeTarget "PiggyBankTests" */;
+			buildPhases = (
+				EE12FAAB25DA6BA600CD8A5A /* Sources */,
+				EE12FAAC25DA6BA600CD8A5A /* Frameworks */,
+				EE12FAAD25DA6BA600CD8A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE12FAB125DA6BA600CD8A5A /* PBXTargetDependency */,
+			);
+			name = PiggyBankTests;
+			productName = PiggyBankTests;
+			productReference = EE12FAAF25DA6BA600CD8A5A /* PiggyBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE12FAB925DA6BA600CD8A5A /* PiggyBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE12FAC925DA6BA600CD8A5A /* Build configuration list for PBXNativeTarget "PiggyBankUITests" */;
+			buildPhases = (
+				EE12FAB625DA6BA600CD8A5A /* Sources */,
+				EE12FAB725DA6BA600CD8A5A /* Frameworks */,
+				EE12FAB825DA6BA600CD8A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE12FABC25DA6BA600CD8A5A /* PBXTargetDependency */,
+			);
+			name = PiggyBankUITests;
+			productName = PiggyBankUITests;
+			productReference = EE12FABA25DA6BA600CD8A5A /* PiggyBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE12FA9125DA6BA200CD8A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EE12FA9825DA6BA200CD8A5A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE12FAAE25DA6BA600CD8A5A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EE12FA9825DA6BA200CD8A5A;
+					};
+					EE12FAB925DA6BA600CD8A5A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EE12FA9825DA6BA200CD8A5A;
+					};
+				};
+			};
+			buildConfigurationList = EE12FA9425DA6BA200CD8A5A /* Build configuration list for PBXProject "PiggyBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE12FA9025DA6BA200CD8A5A;
+			productRefGroup = EE12FA9A25DA6BA200CD8A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE12FA9825DA6BA200CD8A5A /* PiggyBank */,
+				EE12FAAE25DA6BA600CD8A5A /* PiggyBankTests */,
+				EE12FAB925DA6BA600CD8A5A /* PiggyBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE12FA9725DA6BA200CD8A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12FAA925DA6BA600CD8A5A /* LaunchScreen.storyboard in Resources */,
+				EE12FAA625DA6BA600CD8A5A /* Assets.xcassets in Resources */,
+				EE12FAA425DA6BA200CD8A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE12FAAD25DA6BA600CD8A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE12FAB825DA6BA600CD8A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE12FA9525DA6BA200CD8A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12FAA125DA6BA200CD8A5A /* ViewController.swift in Sources */,
+				EE12FA9D25DA6BA200CD8A5A /* AppDelegate.swift in Sources */,
+				EE12FA9F25DA6BA200CD8A5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE12FAAB25DA6BA600CD8A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12FAB425DA6BA600CD8A5A /* PiggyBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE12FAB625DA6BA600CD8A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12FABF25DA6BA600CD8A5A /* PiggyBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE12FAB125DA6BA600CD8A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE12FA9825DA6BA200CD8A5A /* PiggyBank */;
+			targetProxy = EE12FAB025DA6BA600CD8A5A /* PBXContainerItemProxy */;
+		};
+		EE12FABC25DA6BA600CD8A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE12FA9825DA6BA200CD8A5A /* PiggyBank */;
+			targetProxy = EE12FABB25DA6BA600CD8A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE12FAA225DA6BA200CD8A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE12FAA325DA6BA200CD8A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE12FAA725DA6BA600CD8A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE12FAA825DA6BA600CD8A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE12FAC125DA6BA600CD8A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE12FAC225DA6BA600CD8A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE12FAC425DA6BA600CD8A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH5W44HSF4;
+				INFOPLIST_FILE = PiggyBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solbaatyr.PiggyBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE12FAC525DA6BA600CD8A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH5W44HSF4;
+				INFOPLIST_FILE = PiggyBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solbaatyr.PiggyBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE12FAC725DA6BA600CD8A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH5W44HSF4;
+				INFOPLIST_FILE = PiggyBankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solbaatyr.PiggyBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiggyBank.app/PiggyBank";
+			};
+			name = Debug;
+		};
+		EE12FAC825DA6BA600CD8A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH5W44HSF4;
+				INFOPLIST_FILE = PiggyBankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solbaatyr.PiggyBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiggyBank.app/PiggyBank";
+			};
+			name = Release;
+		};
+		EE12FACA25DA6BA600CD8A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH5W44HSF4;
+				INFOPLIST_FILE = PiggyBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solbaatyr.PiggyBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiggyBank;
+			};
+			name = Debug;
+		};
+		EE12FACB25DA6BA600CD8A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UH5W44HSF4;
+				INFOPLIST_FILE = PiggyBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solbaatyr.PiggyBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiggyBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE12FA9425DA6BA200CD8A5A /* Build configuration list for PBXProject "PiggyBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE12FAC125DA6BA600CD8A5A /* Debug */,
+				EE12FAC225DA6BA600CD8A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE12FAC325DA6BA600CD8A5A /* Build configuration list for PBXNativeTarget "PiggyBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE12FAC425DA6BA600CD8A5A /* Debug */,
+				EE12FAC525DA6BA600CD8A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE12FAC625DA6BA600CD8A5A /* Build configuration list for PBXNativeTarget "PiggyBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE12FAC725DA6BA600CD8A5A /* Debug */,
+				EE12FAC825DA6BA600CD8A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE12FAC925DA6BA600CD8A5A /* Build configuration list for PBXNativeTarget "PiggyBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE12FACA25DA6BA600CD8A5A /* Debug */,
+				EE12FACB25DA6BA600CD8A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE12FA9125DA6BA200CD8A5A /* Project object */;
+}
